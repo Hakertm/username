@@ -1,7 +1,7 @@
 #! /bin/bash
 # username.sh
 # Erik Fryanov 
-echo "Enter a five-digit ZIP code: "
+echo "Enter a username: "
 read ZIP
 while echo "$ZIP" | egrep -v "^[0-9]{5}$" > /dev/null 2>&1
 do
